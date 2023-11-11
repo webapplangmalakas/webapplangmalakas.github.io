@@ -1,0 +1,81 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+section {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: #fff;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 0.5em;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/* Add responsive styling for smaller screens */
+@media screen and (max-width: 600px) {
+    section {
+        padding: 0.5em;
+    }
+}
+
+/* Style the About Me section */
+section:nth-of-type(1) {
+    background-color: #f8f8f8;
+}
+
+/* Style the Skills section */
+section:nth-of-type(2) {
+    background-color: #f4f4f4;
+}
+
+/* Style the Contact section */
+section:nth-of-type(3) {
+    background-color: #f8f8f8;
+}
+
+/* Add some styling to links within paragraphs */
+p a {
+    border-bottom: 1px dotted #007BFF;
+}
+
+p a:hover {
+    border-bottom: 1px solid #007BFF;
+}
